@@ -29,16 +29,20 @@ Kenya Airways is challenged by the vast amount of unstructured customer feedback
 
 We did Web Scraping from the 3 websites below and merged our datasets
 
-<https://uk.trustpilot.com/review/www.kenya-airways.com>
+<https://uk.trustpilot.com/review/www.kenya-airways.com> 
+
 <https://www.airlinequality.com/airline-reviews/kenya-airways/>
+
 <https://www.airlineratings.com/airlines/kenya-airways>
 
 # VISUALIZATIONS 
 
-![Distribution_of_Ratings]](image-2.png)
+![Distribution_of_Ratings](image-2.png)
+
 A majority of ratings cluster around the higher end of the scale, with 4.0 and 5.0 being the most frequent. This indicated a positive bias in the dataset, as lower ratings are significantly less common. Such a distribution might suggest high overall customer satisfaction or potential rating inflation. 
 
-![Wordcloud_of_Reviews]](image-1.png)
+![Wordcloud_of_Reviews](image-1.png)
+
 Word cloud to visually represent the most common words found in both positive and negative reviews, providing insights into key themes and sentiments expressed by users. 
 
 # MODELLING, DEPLOYMENT 
