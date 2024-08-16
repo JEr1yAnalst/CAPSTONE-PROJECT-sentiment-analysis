@@ -13,9 +13,10 @@
 2. [PROBLEM STATEMENT](#PROBLEM-STATEMENT)
 3. [DATA UNDERSTANDING](#DATA-UNDERSTANDING)
 4. [VISUALIZATIONS](#VISUALIZATIONS)
-5. [MODELLING, DEPLOYMENT](#MODELLING-AND-DEPLOYMENT)
-6. [CONCLUSION](#CONCLUSION)
-7. [RECOMMENDATIONS](#RECOMMENDATIONS)
+5. [MODELLING PROCESS,(DEPLOYMENT)](#MODELLING-AND-DEPLOYMENT)
+6. [EVALUATION](#EVALUATION)
+7. [CONCLUSIONS](#CONCLUSIONS)
+8. [RECOMMENDATIONS](#RECOMMENDATIONS)
 
 # BUSINESS UNDERSTANDING.
 
@@ -29,11 +30,11 @@ Kenya Airways is challenged by the vast amount of unstructured customer feedback
 
 We did Web Scraping from the 3 websites below and merged our datasets
 
-<https://uk.trustpilot.com/review/www.kenya-airways.com> 
+1. <https://uk.trustpilot.com/review/www.kenya-airways.com> 
 
-<https://www.airlinequality.com/airline-reviews/kenya-airways/>
+2. <https://www.airlinequality.com/airline-reviews/kenya-airways/>
 
-<https://www.airlineratings.com/airlines/kenya-airways>
+3. <https://www.airlineratings.com/airlines/kenya-airways>
 
 # VISUALIZATIONS 
 
@@ -45,5 +46,27 @@ A majority of ratings cluster around the higher end of the scale, with 4.0 and 5
 
 Word cloud to visually represent the most common words found in both positive and negative reviews, providing insights into key themes and sentiments expressed by users. 
 
-# MODELLING, DEPLOYMENT 
+# MODELLING AND DEPLOYMENT
+
+In the context of engagement prediction, the approach involves several key steps: data splitting for training, testing, and validation, followed by the training and evaluation of various models.
+
+To build our Classifier and predictive system the various models listed below;
+
+ 1. Logistic Regression with TF-IDF
+ 2. Naive Bayes
+ 3. SVM
+ 4. Random Forest
+ 5. XG-Boost
+
+ These models are assessed using metrics like Acuracy, RMSE, R-squared and ROC Curve with an emphasis on achieving high accuracy in sentiment analysis. Hyperparameter tuning and ensemble modeling are used to enhance model performance, and the best-performing models are selected.
+
+ Additionally, natural language understanding (NLU) was implemented to extract context from user reviews for personalized responses. Testing and training ensure appropriate responses to various sentiments, and best model is integrated into the user interface and deployed at scale, using Pickle and Streamlit for model deployment. The project's scalability allows Kenya Airways to customize sentiment analysis and engagement prediction for their specific needs, fostering industry-wide improvements in customer engagement and satisfaction. 
+
+ # EVALUATION
+
+
+
+
+
+
 
