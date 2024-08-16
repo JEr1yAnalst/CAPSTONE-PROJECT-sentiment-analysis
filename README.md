@@ -48,9 +48,9 @@ Word cloud to visually represent the most common words found in both positive an
 
 # MODELLING AND DEPLOYMENT
 
-In the context of engagement prediction, the approach involves several key steps: data splitting for training, testing, and validation, followed by the training and evaluation of various models.
+In the context of engagement prediction, the approach involves several key steps: data splitting for training, testing, followed by the training and evaluation of various models.
 
-To build our Classifier and predictive system the various models listed below;
+To build our Classifier and predictive system we explored the various models listed below;
 
  1. Logistic Regression with TF-IDF
  2. Naive Bayes
@@ -58,9 +58,9 @@ To build our Classifier and predictive system the various models listed below;
  4. Random Forest
  5. XG-Boost
 
- These models are assessed using metrics like Acuracy, RMSE, R-squared and ROC Curve with an emphasis on achieving high accuracy in sentiment analysis. Hyperparameter tuning and ensemble modeling are used to enhance model performance, and the best-performing models are selected.
+ These models are assessed using metrics like Accuracy, RMSE, and ROC Curve with an emphasis on achieving high accuracy in sentiment analysis. Hyperparameter tuning and ensemble modeling are used to enhance model performance, and the best-performing models are selected.
 
- Additionally, natural language understanding (NLU) was implemented to extract context from user reviews for personalized responses. Testing and training ensure appropriate responses to various sentiments, and best model is integrated into the user interface and deployed at scale, using Pickle and Streamlit for model deployment. The project's scalability allows Kenya Airways to customize sentiment analysis and engagement prediction for their specific needs, fostering industry-wide improvements in customer engagement and satisfaction. 
+ Additionally, natural language understanding (NLU) was implemented to extract context from user reviews for personalized responses. Testing and training ensure appropriate responses to various sentiments, and best model is integrated with the user interface and deployed at scale, using Streamlit and Pickle for model deployment. The project's scalability allows Kenya Airways to customize sentiment analysis and engagement prediction for their specific needs, fostering industry-wide improvements in customer engagement and satisfaction. 
 
  # EVALUATION
 
