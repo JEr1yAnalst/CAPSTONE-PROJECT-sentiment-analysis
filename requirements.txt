@@ -1,6 +1,7 @@
 joblib
 matplotlib
 nltk
+nltk.download('punkt')
 Numpy
 Pandas
 Pillow
