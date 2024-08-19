@@ -1,6 +1,6 @@
 joblib
 matplotlib
-ntlk
+nltk
 Numpy
 Pandas
 Pillow
