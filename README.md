@@ -88,6 +88,12 @@ To build our Classifier and predictive system we explored the various models lis
 
 4. Compensation Policies: Review and enhance compensation policies for inconvenienced passengers to rebuild trust and demonstrate commitment to customer satisfaction.
 
+#  MODEL DEPLOYMENT
+
+Here is the url to our deployment app ,
+
+https://jer1yanalst-capstone-project-sentiment-ana-streamlit-app-exz4hd.streamlit.app/
+
 
 
 
