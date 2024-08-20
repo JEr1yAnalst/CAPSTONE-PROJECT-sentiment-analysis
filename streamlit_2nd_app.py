@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 import nltk
+nltk.download('punkt_tab')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
