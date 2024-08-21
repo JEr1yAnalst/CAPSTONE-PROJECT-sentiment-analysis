@@ -38,9 +38,11 @@ We did Web Scraping from the 3 websites below and merged our datasets
 
 # VISUALIZATIONS 
 
-![Distribution_of_Ratings](image-2.png)
+![alt text](image-4.png)
 
-A majority of ratings cluster around the higher end of the scale, with 4.0 and 5.0 being the most frequent. This indicated a positive bias in the dataset, as lower ratings are significantly less common. Such a distribution might suggest high overall customer satisfaction or potential rating inflation. 
+The distribution of ratings for Kenya Airways indicates a wide range of customer experiences. The majority of customers rate their experience as average (Rating 3), but there is a significant number of dissatisfied customers (Rating 1). On the positive side, there are also many customers who rated their experience as good (Rating 4) or excellent (Rating 5), though these are fewer compared to the average and poor ratings.
+
+This distribution suggests that while there is satisfaction among a portion of the customer base, there is a need to address the concerns of those who had poor experiences to improve overall customer satisfaction and reduce the number of average and dissatisfied customers.
 
 ![Wordcloud_of_Reviews](image-1.png)
 
